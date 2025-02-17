@@ -1,8 +1,8 @@
-create a package.json file.
+# create a package.json file.
  -> npm init -y
  
 
-Modules to be install :
+# Modules to be install :
 
 # 1️⃣ Install Express.js (Web Framework)
 npm install express
@@ -35,6 +35,20 @@ npm install ejs
 npm install mysql
 
 
-Run Your Project :
+# Run Your Project :
 -> node app.js
 
+
+# Database :
+
+/* Create and Use Database */
+# use app;
+
+/* automatically server creates tables users and my_faces */
+/* describe table structures */
+ # desc users;
+ # desc my_faces;
+
+/* retrive tables data */
+# select * from users;
+# select * from my_faces;
